@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders API Test</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <h1>Test Orders API</h1>
+
+    <!-- Form to create a new order -->
+    <h2>Create New Order</h2>
+    <form id="createOrderForm">
+        <label for="userId">User ID:</label>
+        <input type="text" id="userId" name="userId" required><br>
+
+        <label for="productId">Product ID:</label>
+        <input type="text" id="productId" name="productId" required><br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" required><br>
+
+        <label for="totalAmount">Total Amount:</label>
+        <input type="number" id="totalAmount" name="totalAmount" required><br>
+
+        <button type="submit">Create Order</button>
+    </form>
+
+    <div id="createOrderResponse"></div>
+
+    <!-- Form to fetch orders by user ID -->
+    <h2>Fetch User Orders</h2>
+    <form id="fetchOrdersForm">
+        <label for="fetchUserId">User ID:</label>
+        <input type="text" id="fetchUserId" name="fetchUserId" required><br>
+
+        <button type="submit">Fetch Orders</button>
+    </form>
+
+    <div id="fetchOrdersResponse"></div>
+
+    <script>
+        // Handle create order form submission
+        $('#createOrderForm').on('submit', function(event) {
+            event.preventDefault();
+            const userId = $('#userId').val();
+            const productId = $('#productId').val();
+            const quantity = $('#quantity').val();
+            const totalAmount = $('#totalAmount').val();
+
+            $.ajax({
+                url: '/api/orders',
+                method: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    userId: userId,
+                    items: [{ productId: productId, quantity: quantity, price: totalAmount }],
+                    totalAmount: totalAmount
+                }),
+                success: function(response) {
+                    $('#createOrderResponse').html(`<p>Order Created: ${JSON.stringify(response)}</p>`);
+                },
+                error: function(xhr) {
+                    $('#createOrderResponse').html(`<p>Error: ${xhr.responseText}</p>`);
+                }
+            });
+        });
+
+        // Handle fetch orders form submission
+        $('#fetchOrdersForm').on('submit', function(event) {
+            event.preventDefault();
+            const userId = $('#fetchUserId').val();
+
+            $.ajax({
+                url: `/api/orders/user/${userId}`,
+                method: 'GET',
+                success: function(response) {
+                    $('#fetchOrdersResponse').html(`<pre>${JSON.stringify(response, null, 2)}</pre>`);
+                },
+                error: function(xhr) {
+                    $('#fetchOrdersResponse').html(`<p>Error: ${xhr.responseText}</p>`);
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
