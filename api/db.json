@@ -1,0 +1,160 @@
+{
+    "clothing": [
+      {
+        "_id": 1,
+        "name": "Men's Running Shoes",
+        "price": 49.99,
+        "size": "M",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFH7j0R2Biw3P1A9MhXKLh2_978sXFMaxI9w&s",
+        "men": "yes",
+        "newarrivals": "yes",
+        "description": "Experience unparalleled comfort and performance with these men's running shoes. Designed with advanced cushioning technology, they provide excellent shock absorption and support during your most intense runs."
+      },
+      {
+        "_id": 2,
+        "name": "Luxury Designer Shoes",
+        "price": 3999.99,
+        "size": "L",
+        "image": "https://images.pexels.com/photos/267320/pexels-photo-267320.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "men": "yes",
+        "description": "Elevate your style with these luxury designer shoes, crafted with precision and premium materials. Perfect for special occasions, they blend sophistication and comfort effortlessly."
+      },
+      {
+        "_id": 3,
+        "name": "Men's Classic Jeans",
+        "price": 39.99,
+        "size": "L",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi_YJQDQSsotGMbFYVfaagFrmIp8jnLKtpc_cf3Am7CFx7qOqsPv1gTu4TQgdG3FNosrs&usqp=CAU",
+        "men": "yes",
+        "newarrivals": "yes",
+        "description": "These men's classic jeans are a wardrobe essential, offering a timeless fit and versatile style. Made with durable fabric, they ensure long-lasting wear and ultimate comfort."
+      },
+      {
+        "_id": 4,
+        "name": "Women's Skinny Jeans",
+        "price": 29.99,
+        "size": "L",
+        "image": "https://images-cdn.ubuy.co.in/664ca4349fd8be3e9d2f2b67-pencil-jeans-women-lady-stretch-casual.jpg",
+        "women": "yes",
+        "description": "Flatter your silhouette with these women's skinny jeans. Featuring a snug fit and stretchable fabric, they provide both style and comfort for any occasion."
+      },
+      {
+        "_id": 5,
+        "name": "Kids' Stretchable Jeans",
+        "price": 19.99,
+        "size": "S",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQIyQEMn4FHVnJZajGikSC3fcKrjcnQLReDg&s",
+        "bestselling": "yes",
+        "kids": "yes",
+        "description": "Let your kids enjoy unmatched comfort with these stretchable jeans. Designed for active play, they combine durability with a soft and flexible fit."
+      },
+      {
+        "_id": 6,
+        "name": "Kids' Blue Jeans",
+        "price": 24.99,
+        "size": "M",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSX9BlANkC-N3AqCkRmJy8Q8pyfnGrnT8LPQ&s",
+        "bestselling": "yes",
+        "kids": "yes",
+        "description": "Stylish and practical, these kids' blue jeans are a perfect addition to any wardrobe. Crafted with high-quality fabric, they offer a great fit and a trendy look."
+      },
+      {
+        "_id": 7,
+        "name": "Kids' Regular Fit Jeans",
+        "price": 22.99,
+        "size": "M",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO_tGowAH2-gRU2owx_xVYJE87gj_GcMXPQg&s",
+        "bestselling": "yes",
+        "kids": "yes",
+        "description": "These regular fit jeans for kids are designed for comfort and everyday wear. The soft fabric and classic design make them a wardrobe staple for your little ones."
+      },
+      {
+        "_id": 8,
+        "name": "Kids' Comfortable Jeans",
+        "price": 18.99,
+        "size": "S",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7OjP1ayjvdijHSCOiuqPyAjnBNN8g8flO-A&s",
+        "bestselling": "yes",
+        "kids": "yes",
+        "description": "Give your kids the gift of comfort with these stretchable and lightweight jeans. They are ideal for both casual outings and active adventures."
+      },
+      {
+        "_id": 9,
+        "name": "Kids' Casual Wear Jeans",
+        "price": 21.99,
+        "size": "S",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc5h4ec4TdfGTf3EBrIiTiRywUcFrloXKntQ&s",
+        "kids": "yes",
+        "description": "Perfect for everyday wear, these kids' casual jeans offer a relaxed fit and durable construction. They pair well with any top for a cute and comfy look."
+      },
+      {
+        "_id": 10,
+        "name": "Men's Slim Fit T-Shirt",
+        "price": 59.99,
+        "size": "L",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd5s6j6c6hpwflIs9xOlT0CWejFVHxBaCKVg&s",
+        "men": "yes",
+        "newarrivals": "yes",
+        "description": "This men's slim-fit t-shirt is a versatile choice for casual and semi-formal occasions. The soft fabric and tailored fit provide ultimate style and comfort."
+      },
+      {
+        "_id": 11,
+        "name": "Women's High Waist Jeans",
+        "price": 34.99,
+        "size": "M",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAAgMX_ceRqqlMkhA6ECmoZc5e5OyO7qS1ww&s",
+        "women": "yes",
+        "newarrivals": "yes",
+        "description": "Add a touch of elegance to your outfit with these women's high-waist jeans. Designed for a flattering fit, they pair well with crop tops and casual shirts."
+      },
+      {
+        "_id": 12,
+        "name": "Men's Shirt",
+        "price": 49.99,
+        "size": "L",
+        "image": "https://assets.ajio.com/medias/sys_master/root/20231012/xibk/65280b7eafa4cf41f53f221a/-473Wx593H-469514973-blue-MODEL.jpg",
+        "men": "yes",
+        "bestselling": "yes",
+        "description": "This classic men's shirt combines style and functionality. The breathable fabric and tailored design make it suitable for both formal and casual occasions."
+      },
+      {
+        "_id": 13,
+        "name": "Women's Top",
+        "price": 39.99,
+        "size": "L",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9_VX0jv6gE-XsK5xc09cTJBwPPhROg42cXw&s",
+        "women": "yes",
+        "bestselling": "yes",
+        "description": "Stay stylish with this women's top, featuring a trendy design and comfortable fit. It's perfect for casual outings or a day at work."
+      },
+      {
+        "_id": 14,
+        "name": "Kids' t-shirt",
+        "price": 25.99,
+        "size": "M",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8hIomuTm96D55Gl1lBiRVbAfNp1c86pyrbQ&s",
+        "kids": "yes",
+        "newarrivals": "yes",
+        "description": "This kids' t-shirt is a perfect blend of comfort and style. Made from soft fabric, it keeps your little ones feeling fresh and looking cool all day."
+      },
+      {
+        "_id": 15,
+        "name": "Men's Coat",
+        "price": 44.99,
+        "size": "XL",
+        "image": "https://italianvega.in/cdn/shop/products/br4.webp?v=1700146580&width=1445",
+        "men": "yes",
+        "bestselling": "yes",
+        "description": "This men's coat is the epitome of elegance, providing a sharp look for formal events. The high-quality material ensures durability and warmth."
+      },
+      {
+        "_id": 16,
+        "name": "Women's Casual Coat",
+        "price": 32.99,
+        "size": "M",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHPs9FJWn5deUA09efpCiZAJZ40LydRYtcAg&s",
+        "women": "yes",
+        "description": "This women's casual coat is both stylish and practical. Its lightweight fabric and modern design make it a must-have for your wardrobe."
+      }
+    ]
+  }  
